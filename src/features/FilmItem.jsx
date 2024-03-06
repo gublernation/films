@@ -110,7 +110,7 @@ export default function FilmItem({ film }) {
       </PosterWrap>
       <TitleWrap>
         <FilmTitle>
-          <Link to={`/${id}`}>{title}</Link>
+          <Link to={`./public/${id}`}>{title}</Link>
         </FilmTitle>
         <Rating>
           <Star size="14" />
