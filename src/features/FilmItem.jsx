@@ -105,12 +105,12 @@ export default function FilmItem({ film }) {
   return (
     <StyledFilmItem>
       <PosterWrap to={`/${id}`}>
-        {poster && <Poster src={`/${poster}`} />}
+        {poster && <Poster src={`${poster}`} />}
         {!poster && <EmptyPoster>no image</EmptyPoster>}
       </PosterWrap>
       <TitleWrap>
         <FilmTitle>
-          <Link to={`${id}`}>{title}</Link>
+          <Link to={`/${id}`}>{title}</Link>
         </FilmTitle>
         <Rating>
           <Star size="14" />
