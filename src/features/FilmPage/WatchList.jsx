@@ -33,7 +33,7 @@ function WatchList({ watch_list }) {
       {watch_list.map(li => (
         <List key={li.platform}>
           <a href={li.url} target="_blank">
-            <Icon src={`/${li.icon}`} />
+            <Icon src={`${li.icon}`} />
           </a>
           <p>{li.price}</p>
         </List>

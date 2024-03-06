@@ -13,7 +13,7 @@ const Header = styled.header`
   width: 100%;
   height: 420px;
 
-  ${props => `background-image: url(/${props.src});`}
+  ${props => `background-image: url(${props.src});`}
 
   background-size: cover;
   background-position: center;
